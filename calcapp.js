@@ -27,4 +27,5 @@ var operations = {
 var calculate = function (x, y, operation) {
 	return operations[operation](x, y);
 }
+
 console.log(calculate(20, 5, '/'));
